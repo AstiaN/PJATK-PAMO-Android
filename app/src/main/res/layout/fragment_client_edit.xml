@@ -1,0 +1,89 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.astian.pjatk_pamo_project.fragments.ClientEditFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/client_edit_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/surname_hint"
+        android:inputType="text" />
+    <EditText
+        android:id="@+id/client_edit_surname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/surname_hint"
+        android:inputType="text" />
+    <EditText
+        android:id="@+id/client_edit_country"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/country_hint"
+        android:inputType="text" />
+    <EditText
+        android:id="@+id/client_edit_city"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/city_hint"
+        android:inputType="text" />
+    <EditText
+        android:id="@+id/client_edit_street"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/street_hint"
+        android:inputType="text" />
+    <EditText
+        android:id="@+id/client_edit_house_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/house_number_hint"
+        android:inputType="text" />
+    <EditText
+        android:id="@+id/client_edit_apartment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/apartment_hint"
+        android:inputType="text" />
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/delete_client_btn"
+            android:layout_width="96dp"
+            android:layout_height="48dp"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="42dp"
+            android:background="@color/colorPrimary"
+            android:gravity="center"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:text="@string/delete_button_name"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/save_client_btn"
+            android:layout_width="96dp"
+            android:layout_height="48dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="40dp"
+            android:background="@color/colorAccent"
+            android:gravity="center"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:text="@string/save_button_name"
+            android:textSize="14sp" />
+
+    </RelativeLayout>
+
+</LinearLayout>
